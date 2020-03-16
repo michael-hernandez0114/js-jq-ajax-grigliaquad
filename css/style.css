@@ -3,3 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh / 6);
+    width: calc(100vw / 6);
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
