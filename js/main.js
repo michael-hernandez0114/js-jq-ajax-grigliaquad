@@ -16,9 +16,16 @@ $(document).ready(function() {
             currObj.html(data.response);
 
             if(data.response <= 5) {
+                if(currObj.hasClass('green')) {
+                    currObj.removeClass('green')
+                }
+
                 currObj.addClass('yellow');
             }
             else {
+                if(currObj.hasClass('yellow')) {
+                    currObj.removeClass('yellow')
+                }
                 currObj.addClass('green');
             }
         },

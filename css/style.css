@@ -21,7 +21,7 @@ body {
     height: calc(100vh / 6);
     width: calc(100vw / 6);
     border: 1px solid black;
-    background-color: blue;
+    
 }
 
 .yellow {
